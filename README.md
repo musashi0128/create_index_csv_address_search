@@ -8,7 +8,7 @@
  * 機能1 => インデックスファイルの作成
    * 対象ファイル => create_index_nopass.rbとcreate_index_onpass.rb
    * 説明 => zipファイルの解凍 -> 読み込み -> csvファイルの生成 / zipファイルにパスワードがある場合にも対応(パスワードはベタ打ち)
-   * 実行方法 => $ ruby create_index_nopass.rb
+   * 実行方法 => ```$ ruby create_index_nopass.rb```
 
  * 機能2 => 作成したインデックスファイルを元に住所レコードの検索
    * 対象ファイル => serch_address.rb
